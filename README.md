@@ -74,3 +74,15 @@ that is not part of the game. Remove that line if you'd rather not fetch it.
 The project has [MCP for Unity](https://github.com/CoplayDev/unity-mcp) wired up
 ([`.mcp.json`](.mcp.json)), so an MCP client such as Claude Code can read and
 modify the scene, GameObjects, and scripts directly in the running editor.
+
+---
+
+## Credits
+
+- TextMesh Pro essential resources: Unity Technologies (Liberation Sans font under
+  the SIL Open Font License; EmojiOne sprite sheet)
+- All gameplay code in `Assets/Scripts/` is my own.
+
+## License
+
+[MIT](LICENSE.md)
