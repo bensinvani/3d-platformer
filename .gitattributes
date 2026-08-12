@@ -1,0 +1,36 @@
+* text=auto
+
+# Unity YAML assets - use UnityYAMLMerge for 3-way merges
+*.unity        merge=unityyamlmerge eol=lf
+*.prefab       merge=unityyamlmerge eol=lf
+*.asset        merge=unityyamlmerge eol=lf
+*.mat          merge=unityyamlmerge eol=lf
+*.anim         merge=unityyamlmerge eol=lf
+*.controller   merge=unityyamlmerge eol=lf
+*.physicMaterial merge=unityyamlmerge eol=lf
+*.meta         merge=unityyamlmerge eol=lf
+
+# Source
+*.cs           diff=csharp text eol=lf
+*.shader       text eol=lf
+*.cginc        text eol=lf
+*.hlsl         text eol=lf
+
+# Binary assets - never diff or normalize line endings
+*.png          binary
+*.jpg          binary
+*.jpeg         binary
+*.gif          binary
+*.psd          binary
+*.tga          binary
+*.ttf          binary
+*.otf          binary
+*.fbx          binary
+*.obj          binary
+*.blend        binary
+*.wav          binary
+*.mp3          binary
+*.ogg          binary
+*.mp4          binary
+*.unitypackage binary
+*.dll          binary
